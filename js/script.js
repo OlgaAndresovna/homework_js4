@@ -14,7 +14,7 @@ const arr = [1, 2, 3, 4, 5, 6, 7];
 arr2 = [].concat(arr.slice(0, 3), arr.slice(5, 7));
 console.log(arr2);*/
 
-/*Задача 3*/
+/*Задача 3
 const array = [];
 for (let i = 0; i < 5; i++) {
     array[i] = Math.floor(Math.random() * 9);
@@ -42,6 +42,19 @@ for (let i = 0; i < array.length; i++) {
         break;
     }
 }
+*/
+/*Задача 4*/
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
+for (let elem of arr) {
+    let result;
 
-
+    if (elem % 2 == 0) {
+        result = elem * elem;
+    } else if (elem % 3 == 0) {
+        result = elem * elem * elem;
+    } else {
+        continue;
+    }
+    console.log(result);
+}
