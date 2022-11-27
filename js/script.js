@@ -58,7 +58,7 @@ for (let elem of arr) {
     }
     console.log(result);
 }*/
-/*Задача 5*/
+/*Задача 5
 const arr = [1, 2, 3, 2, 4, 3, 5, 6, 3, 2, 3];
 let counter = 0;
 let count = 0;
@@ -69,4 +69,10 @@ for (let elem of arr) {
         count++
     }
 }
-console.log(`В массиве ${counter} цифры 3`);
+console.log(`В массиве ${counter} цифры 3`);*/
+
+/*Задача 6*/
+let arr = [1, 2, 3, 4, 5];
+arr.splice(1, 2);
+console.log(arr);
+
