@@ -43,7 +43,7 @@ for (let i = 0; i < array.length; i++) {
     }
 }
 */
-/*Задача 4*/
+/*Задача 4
 let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 for (let elem of arr) {
@@ -57,4 +57,16 @@ for (let elem of arr) {
         continue;
     }
     console.log(result);
+}*/
+/*Задача 5*/
+const arr = [1, 2, 3, 2, 4, 3, 5, 6, 3, 2, 3];
+let counter = 0;
+let count = 0;
+for (let elem of arr) {
+    if (elem == 3) {
+        counter++
+    } else if (elem == 2) {
+        count++
+    }
 }
+console.log(`В массиве ${counter} цифры 3`);
