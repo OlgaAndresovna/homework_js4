@@ -71,8 +71,12 @@ for (let elem of arr) {
 }
 console.log(`В массиве ${counter} цифры 3`);*/
 
-/*Задача 6*/
+/*Задача 6
 let arr = [1, 2, 3, 4, 5];
 arr.splice(1, 2);
-console.log(arr);
+console.log(arr);*/
 
+/* Необязательное задание*/
+for (let i = 0; i < 21; i++) {
+    console.log('x'.repeat(i));
+}
